@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="pimpmaneaton/device_lge_vs985" path="device/lge/vs985" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/android_device_lge_g3-common" path="device/lge/g3-common" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/kernel_lge_g3" path="kernel/lge/g3" remote="github" revision="n7.1" />
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
+  <project name="CyanogenMod/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
+  <remove-project name="android_frameworks_base" />
+  <project name="pimpmaneaton/android_frameworks_base" path="frameworks/base" remote="github" revision="n7.1" />
+  <remove-project name="CyanogenMod/android_frameworks_native" />
+  <project name="pimpmaneaton/frameworks_native" path="frameworks/native" remote="github" revision="n7.1" />
+  <remove-project name= "Resurrection_packages_apps_Settings" />
+  <project name="pimpmaneaton/Resurrection_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="n7.1" />
+  <remove-project name= "android_system_sepolicy" />
+  <project name="pimpmaneaton/android_system_sepolicy" path="system/sepolicy" remote="github" revision="n7.1" />
+  <remove-project name= "android_build" />  
+  <project name="pimpmaneaton/android_build" path="build" remote="github" revision="n7.1" />
+  <remove-project name= "android_vendor_resurrection" />  
+  <project name="pimpmaneaton/android_vendor_resurrection" path="vendor/cm" remote="github" revision="n7.1" />
+  <remove-project name= "CyanogenMod/android_packages_apps_Contacts" />  
+  <project name="pimpmaneaton/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="github" revision="n7.1" />
+  <remove-project name= "CyanogenMod/android_packages_apps_ContactsCommon" />  
+  <project name="pimpmaneaton/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="github" revision="n7.1" />
+  <remove-project name= "CyanogenMod/android_packages_apps_PhoneCommon" />  
+  <project name="pimpmaneaton/android_packages_apps_PhoneCommon" path="packages/apps/PhoneCommon" remote="github" revision="n7.1" />
+  <remove-project name= "android_packages_apps_Dialer" />  
+  <project name="pimpmaneaton/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="n7.1" />
+  <remove-project name= "CyanogenMod/android_packages_apps_PackageInstaller" />  
+  <project name="pimpmaneaton/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="github" revision="n7.1" />
+  <remove-project name= "CyanogenMod/android_packages_apps_ExactCalculator" />  
+  <project name="BenzoRoms/packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="github" revision="noneone" />
+</manifest>
