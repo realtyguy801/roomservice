@@ -31,4 +31,6 @@
   <project name="pimpmaneaton/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="github" revision="n7.1" />
   <remove-project name= "CyanogenMod/android_packages_apps_ExactCalculator" />  
   <project name="BenzoRoms/packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="github" revision="noneone" />
+  <remove-project name= "CyanogenMod/android_system_media" />  
+  <project name="pimpmaneaton/android_system_media" path="system/media" remote="github" revision="n7.1" />
 </manifest>
