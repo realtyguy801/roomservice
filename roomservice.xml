@@ -33,4 +33,6 @@
   <project name="BenzoRoms/packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="github" revision="noneone" />
   <remove-project name= "CyanogenMod/android_system_media" />  
   <project name="pimpmaneaton/android_system_media" path="system/media" remote="github" revision="n7.1" />
+  <remove-project name= "frameworks_av" />  
+  <project name="pimpmaneaton/frameworks_av" path="frameworks/av" remote="github" revision="n7.1" />
 </manifest>
