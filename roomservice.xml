@@ -3,6 +3,9 @@
   <project name="pimpmaneaton/device_lge_vs985" path="device/lge/vs985" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_device_lge_g3-common" path="device/lge/g3-common" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/kernel_lge_g3" path="kernel/lge/g3" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/device_huawei_angler" path="device/huawei/angler" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/kernel_huawei_angler" path="kernel/huawei/angler" remote="github" revision="n7.1" />
+  <project name="AICP/proprietary_vendor_huawei" path="vendor/huawei" remote="github" revision="n7.1" />
   <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
   <project name="CyanogenMod/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
