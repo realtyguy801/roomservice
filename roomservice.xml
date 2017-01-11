@@ -47,4 +47,6 @@
   <project name="pimpmaneaton/external_DUtils" path="external/DUtils" remote="github" revision="n7.1" />
   <remove-project name="android_packages_apps_CMParts" />
   <project name="pimpmaneaton/android_packages_apps_CMParts" path="packages/apps/CMParts" remote="github" revision="n7.1" />
+  <remove-project name="cm_platform_sdk" />
+  <project name="pimpmaneaton/cm_platform_sdk" path="vendor/cmsdk" remote="github" revision="n7.1" />
 </manifest>
