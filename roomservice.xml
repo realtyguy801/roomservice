@@ -10,7 +10,7 @@
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
   <project name="TeamSubstratum/masquerade" path="packages/apps/masquerade" remote="github" revision="n" />
-  <project name="BenzoRoms/packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="github" revision="noneone" />
+  <project name="pimpmaneaton/packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="github" revision="n7.1" />
   <remove-project name="android_frameworks_base" />
   <project name="pimpmaneaton/android_frameworks_base" path="frameworks/base" remote="github" revision="n7.1" />
   <remove-project name="LineageOS/android_frameworks_native" />
