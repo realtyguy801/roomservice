@@ -50,4 +50,8 @@
   <project name="pimpmaneaton/android_packages_apps_CMParts" path="packages/apps/CMParts" remote="github" revision="n7.1" />
   <remove-project name="cm_platform_sdk" />
   <project name="pimpmaneaton/cm_platform_sdk" path="vendor/cmsdk" remote="github" revision="n7.1" />
+
+  <project name="pimpmaneaton/OTA" path="OTA" remote="github" revision="n7.1" >
+      <copyfile src="ota_conf" dest="ota_conf" />
+  </project>
 </manifest>
