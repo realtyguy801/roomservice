@@ -5,7 +5,7 @@
   <project name="pimpmaneaton/kernel_lge_g3" path="kernel/lge/g3" remote="github" revision="n7.1" />
   <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1" />
   <project name="pimpmaneaton/android_device_huawei_angler" path="device/huawei/angler" remote="github" revision="n7.1" />
-  <project name="pimpmaneaton/kernel_huawei_angler" path="kernel/huawei/angler" remote="github" revision="n7.1.1" />
+  <project name="Flash-Rom/kernel_huawei_angler" path="kernel/huawei/angler" remote="github" revision="n7.1.1" />
   <project name="AICP/proprietary_vendor_huawei" path="vendor/huawei" remote="github" revision="n7.1" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
@@ -14,7 +14,7 @@
   <project name="pimpmaneaton/packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="github" revision="n7.1" />
   <remove-project name="android_frameworks_base" />
   <project name="pimpmaneaton/android_frameworks_base" path="frameworks/base" remote="github" revision="n7.1" />
-  <remove-project name="LineageOS/android_frameworks_native" />
+  <remove-project name="frameworks_native" />
   <project name="pimpmaneaton/frameworks_native" path="frameworks/native" remote="github" revision="n7.1" />
   <remove-project name="Resurrection_packages_apps_Settings" />
   <project name="pimpmaneaton/Resurrection_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="n7.1" />
@@ -38,7 +38,7 @@
   <project name="BenzoRoms/packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="github" revision="noneone" />
   <remove-project name="LineageOS/android_system_media" />
   <project name="pimpmaneaton/android_system_media" path="system/media" remote="github" revision="n7.1" />
-  <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="system_core" />
   <project name="pimpmaneaton/android_system_core" path="system/core" remote="github" revision="n7.1" />
   <remove-project name="frameworks_av" />
   <project name="pimpmaneaton/frameworks_av" path="frameworks/av" remote="github" revision="n7.1" />
