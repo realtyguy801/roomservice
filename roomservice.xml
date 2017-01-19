@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+   <remote  name="flash-gl"
+            revision="n7.1.1"
+            fetch="https://gitlab.com/Flash-ROM/" />
+
   <project name="pimpmaneaton/device_lge_vs985" path="device/lge/vs985" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_device_lge_g3-common" path="device/lge/g3-common" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/kernel_lge_g3" path="kernel/lge/g3" remote="github" revision="n7.1" />
@@ -56,4 +61,9 @@
   <project name="pimpmaneaton/OTA" path="OTA" remote="github" revision="n7.1" >
       <copyfile src="ota_conf" dest="ota_conf" />
   </project>
+
+   <project name="aarch64-linux-android-6.x" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x"  remote="flash-gl" />
+   <project name="arm-linux-androideabi-6.x" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x"  remote="flash-gl" />
+   <project name="clang_linux-x86_3.9.1" path="prebuilts/clang/host/linux-x86/3.9.1"  remote="flash-gl" />
+   <project name="clang_linux-x86_4.0.0" path="prebuilts/clang/host/linux-x86/4.0.0"  remote="flash-gl" />
 </manifest>
