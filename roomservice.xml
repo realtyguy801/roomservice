@@ -39,7 +39,7 @@
   <project name="pimpmaneaton/android_system_sepolicy" path="system/sepolicy" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_build" path="build" remote="github" revision="n7.1" />
   <project name="BenzoRoms/build_kati" path="build/kati" remote="github" revision="noneone" />
-  <project name="BenzoRoms/build_soong" path="buid/soong" remote="github" revision="noneone" >
+  <project name="BenzoRoms/build_soong" path="build/soong" remote="github" revision="noneone" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
