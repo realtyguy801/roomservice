@@ -54,6 +54,7 @@
   <project name="pimpmaneaton/packages_apps_DUI" path="packages/apps/DUI" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/OTA" path="OTA" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="n7.1" />
+  <project name="ScrewdAOSP/packages_apps_DeskClock" path="packages/apps/DeskClock" remote="github" revision="n7x" />
 
   <!-- Device Repos -->
   <project name="pimpmaneaton/android_device_huawei_angler" path="device/huawei/angler" remote="github" revision="n7.1" />
