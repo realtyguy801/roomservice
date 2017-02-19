@@ -24,8 +24,10 @@
   <remove-project name="android_packages_apps_LockClock" />
   <remove-project name="android_packages_services_Telephony" />
   <remove-project name="LineageOS/android_frameworks_opt_telephony" />
+  <remove-project name="android_packages_services_Telecomm" />
   <remove-project name="android_packages_apps_ContactsCommon" />
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
+  <remove-project name="LineageOS/android_packages_apps_CellBroadcastReceiver" />
 
   <!--Packages and frameworks -->
   <project name="BenzoRoms/packages_services_OmniJaws" path="packages/apps/OmniJaws" remote="github" revision="noneone" />
@@ -60,6 +62,8 @@
   <project name="pimpmaneaton/OTA" path="OTA" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/android_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="github" revision="n7.1" />
 
   <!-- Device Repos -->
   <project name="pimpmaneaton/android_device_huawei_angler" path="device/huawei/angler" remote="github" revision="n7.1" />
