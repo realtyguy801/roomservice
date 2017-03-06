@@ -26,17 +26,23 @@
   <remove-project name="LineageOS/android_frameworks_opt_telephony" />
   <remove-project name="android_packages_services_Telecomm" />
   <remove-project name="android_packages_apps_ContactsCommon" />
+  <remove-project name="android_packages_apps_Contacts" />
+  <remove-project name="packages_services_OmniJaws" />
+  <remove-project name="android_packages_apps_OmniSwitch" />
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <remove-project name="LineageOS/android_packages_apps_CellBroadcastReceiver" />
+  <remove-project name="frameworks_opt_cards" />
 
   <!--Packages and frameworks -->
-  <project name="BenzoRoms/packages_services_OmniJaws" path="packages/apps/OmniJaws" remote="github" revision="noneone" />
+  <project name="pimpmaneaton/packages_services_OmniJaws" path="packages/services/OmniJaws" remote="github" revision="n7.1" />
   <project name="omnirom/android_packages_apps_OmniClock" path="packages/apps/OmniClock" remote="github" revision="android-7.1" />
+  <project name="Flash-ROM/packages_apps_OmniSwitch" path="packages/apps/OmniSwtich" remote="github" revision="n7.1.1" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
   <project name="pimpmaneaton/packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_frameworks_base" path="frameworks/base" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/frameworks_native" path="frameworks/native" remote="github" revision="n7.1" />
+  <project name="crdroidandroid/android_frameworks_opt_cards" path="frameworks/opt/cards"  remote="github" revision="7.1" />
   <project name="pimpmaneaton/Resurrection_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_system_sepolicy" path="system/sepolicy" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_build" path="build" remote="github" revision="n7.1" />
@@ -48,6 +54,7 @@
   <project name="pimpmaneaton/android_vendor_resurrection" path="vendor/cm" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_packages_apps_LockClock" path="packages/apps/LockClock" remote="github" revision="n7.1" />
   <project name="omnirom/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="github" revision="android-7.1" />
   <project name="pimpmaneaton/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="github" revision="n7.1" />
