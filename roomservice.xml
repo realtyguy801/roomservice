@@ -27,13 +27,16 @@
   <remove-project name="android_packages_services_Telecomm" />
   <remove-project name="android_packages_apps_ContactsCommon" />
   <remove-project name="android_packages_apps_Contacts" />
+  <remove-project name="android_packages_apps_Messaging" />
   <remove-project name="packages_services_OmniJaws" />
   <remove-project name="android_packages_apps_OmniSwitch" />
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <remove-project name="LineageOS/android_packages_apps_CellBroadcastReceiver" />
   <remove-project name="frameworks_opt_cards" />
+  <remove-project name="substratum/masquerade" />
 
   <!--Packages and frameworks -->
+  <project name="substratum/interfacer" path="packages/apps/interfacer" remote="github" revision="n-rootless" />
   <project name="pimpmaneaton/packages_services_OmniJaws" path="packages/services/OmniJaws" remote="github" revision="n7.1" />
   <project name="omnirom/android_packages_apps_OmniClock" path="packages/apps/OmniClock" remote="github" revision="android-7.1" />
   <project name="Flash-ROM/packages_apps_OmniSwitch" path="packages/apps/OmniSwtich" remote="github" revision="n7.1.1" />
@@ -55,6 +58,7 @@
   <project name="pimpmaneaton/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/android_packages_apps_Messaging" path="packages/apps/Messaging" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_packages_apps_LockClock" path="packages/apps/LockClock" remote="github" revision="n7.1" />
   <project name="omnirom/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="github" revision="android-7.1" />
   <project name="pimpmaneaton/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="github" revision="n7.1" />
