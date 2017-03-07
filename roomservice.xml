@@ -35,46 +35,63 @@
   <remove-project name="frameworks_opt_cards" />
   <remove-project name="substratum/masquerade" />
 
-  <!--Packages and frameworks -->
-  <project name="substratum/interfacer" path="packages/apps/interfacer" remote="github" revision="n-rootless" />
-  <project name="pimpmaneaton/packages_services_OmniJaws" path="packages/services/OmniJaws" remote="github" revision="n7.1" />
-  <project name="omnirom/android_packages_apps_OmniClock" path="packages/apps/OmniClock" remote="github" revision="android-7.1" />
-  <project name="Flash-ROM/packages_apps_OmniSwitch" path="packages/apps/OmniSwtich" remote="github" revision="n7.1.1" />
-  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
-  <project name="pimpmaneaton/packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="github" revision="n7.1" />
-  <project name="pimpmaneaton/android_frameworks_base" path="frameworks/base" remote="github" revision="n7.1" />
-  <project name="pimpmaneaton/frameworks_native" path="frameworks/native" remote="github" revision="n7.1" />
-  <project name="crdroidandroid/android_frameworks_opt_cards" path="frameworks/opt/cards"  remote="github" revision="7.1" />
-  <project name="pimpmaneaton/Resurrection_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="n7.1" />
-  <project name="pimpmaneaton/android_system_sepolicy" path="system/sepolicy" remote="github" revision="n7.1" />
+  <!-- My build repo -->
   <project name="pimpmaneaton/android_build" path="build" remote="github" revision="n7.1" />
-  <project name="BenzoRoms/build_kati" path="build/kati" remote="github" revision="noneone" />
-  <project name="BenzoRoms/build_soong" path="build/soong" remote="github" revision="noneone" >
+  <project name="pimpmaneaton/build_kati" path="build/kati" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/build_soong" path="build/soong" remote="github" revision="n7.1" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project name="pimpmaneaton/android_vendor_resurrection" path="vendor/cm" remote="github" revision="n7.1" />
-  <project name="pimpmaneaton/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="n7.1" />
-  <project name="pimpmaneaton/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="github" revision="n7.1" />
+
+  <!--My Packages -->
+  <project name="substratum/interfacer" path="packages/apps/interfacer" remote="github" revision="n-rootless" />
+  <project name="pimpmaneaton/android_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/android_packages_apps_CMParts" path="packages/apps/CMParts" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="github" revision="n7.1" />
-  <project name="pimpmaneaton/android_packages_apps_Messaging" path="packages/apps/Messaging" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/android_packages_apps_ContactsCommon" path="packages/apps/ContactsCommon" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/packages_apps_DUI" path="packages/apps/DUI" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_packages_apps_LockClock" path="packages/apps/LockClock" remote="github" revision="n7.1" />
-  <project name="omnirom/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="github" revision="android-7.1" />
+  <project name="pimpmaneaton/android_packages_apps_Messaging" path="packages/apps/Messaging" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="github" revision="n7.1" />
+
+  <!-- Services -->
+  <project name="pimpmaneaton/packages_services_OmniJaws" path="packages/services/OmniJaws" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="n7.1" />
+
+  <!--Lineage -->
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
+
+  <!--OmniRom Packages -->
+  <project name="omnirom/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="github" revision="android-7.1" />
+  <project name="omnirom/android_packages_apps_OmniClock" path="packages/apps/OmniClock" remote="github" revision="android-7.1" />
+  <project name="pimpmaneaton/Resurrection_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/android_system_sepolicy" path="system/sepolicy" remote="github" revision="n7.1" />
+
+  <!--CRDroid-->
+  <project name="crdroidandroid/android_frameworks_opt_cards" path="frameworks/opt/cards"  remote="github" revision="7.1" />
+
+  <!--FlashRom -->
+  <project name="Flash-ROM/packages_apps_OmniSwitch" path="packages/apps/OmniSwtich" remote="github" revision="n7.1.1" />
+
+  <!--Frameworks -->
+  <project name="pimpmaneaton/android_frameworks_base" path="frameworks/base" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/frameworks_native" path="frameworks/native" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_system_media" path="system/media" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_system_core" path="system/core" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/frameworks_av" path="frameworks/av" remote="github" revision="n7.1" />
-  <project name="pimpmaneaton/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/external_DUtils" path="external/DUtils" remote="github" revision="n7.1" />
-  <project name="pimpmaneaton/android_packages_apps_CMParts" path="packages/apps/CMParts" remote="github" revision="n7.1" />
+
+  <!-- Vendor -->
   <project name="pimpmaneaton/cm_platform_sdk" path="vendor/cmsdk" remote="github" revision="n7.1" />
-  <project name="pimpmaneaton/packages_apps_DUI" path="packages/apps/DUI" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/android_vendor_resurrection" path="vendor/cm" remote="github" revision="n7.1" />
+
   <project name="pimpmaneaton/OTA" path="OTA" remote="github" revision="n7.1" />
-  <project name="pimpmaneaton/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="n7.1" />
-  <project name="pimpmaneaton/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="n7.1" />
-  <project name="pimpmaneaton/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="github" revision="n7.1" />
-  <project name="pimpmaneaton/android_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="github" revision="n7.1" />
 
   <!-- Device Repos -->
   <project name="pimpmaneaton/android_device_huawei_angler" path="device/huawei/angler" remote="github" revision="n7.1" />
