@@ -33,7 +33,6 @@
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <remove-project name="LineageOS/android_packages_apps_CellBroadcastReceiver" />
   <remove-project name="frameworks_opt_cards" />
-  <remove-project name="substratum/masquerade" />
 
   <!-- My build repo -->
   <project name="pimpmaneaton/android_build" path="build" remote="github" revision="n7.1" />
@@ -44,7 +43,6 @@
   </project>
 
   <!--My Packages -->
-  <project name="substratum/interfacer" path="packages/apps/interfacer" remote="github" revision="n-rootless" />
   <project name="pimpmaneaton/android_packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_packages_apps_CMParts" path="packages/apps/CMParts" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="github" revision="n7.1" />
@@ -61,6 +59,7 @@
   <project name="pimpmaneaton/packages_services_OmniJaws" path="packages/services/OmniJaws" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/Theme-Resources" path="Theme-Resources" remote="github" revision="n7.1" />
 
   <!--Lineage -->
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
@@ -94,7 +93,7 @@
   <project name="pimpmaneaton/OTA" path="OTA" remote="github" revision="n7.1" />
 
   <!-- Device Repos -->
-  <project name="pimpmaneaton/android_device_huawei_angler" path="device/huawei/angler" remote="github" revision="n7.1" />
+  <project name="pimpmaneaton/android_device_huawei_angler" path="device/huawei/angler" remote="github" revision="n7.1-franco" />
   <project name="pimpmaneaton/franco_angler" path="kernel/huawei/angler" remote="github" revision="n7.1" />
   <project name="pimpmaneaton/proprietary_vendor_huawei" path="vendor/huawei" remote="github" revision="n7.1" />
 
