@@ -1,0 +1,116 @@
+
+ ▼ Resurrection Remix Nougat Ver 5.8.2 Changelog
+
+
+ ▼ 03/16/2017
+
+
+ ▪ project frameworks/base/
+ ▪ e618306 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ ca2a687 Automatic translation import
+ ▪ e3b0d96 Automatic translation import
+ ▪ cb85791 Automatic translation import
+ ▪ c1abc56 Fix intermittent slowness in resolver activity towards end of day.
+ ▪ 560217c Clean Up Statusbar Weather Attirbutes.
+
+ ▪ project packages/apps/Settings/
+ ▪ a29b7a7 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 1753536 Fix Fling Settings Seekbar attrs
+ ▪ 87b263d Automatic translation import
+ ▪ a27dd98 Added Nougat Maintainer For Redmi Note 4(mido)
+ ▪ 542c03e Fix possible NPE on SIM settings shutdown.
+ ▪ 0464d0b Clean up SIM enable toggle implementation
+ ▪ 242dcad Settings: port manual provisiong support
+ ▪ e13c91c Update rr_strings.xml (#718)
+
+ ▼ 03/15/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 906acbc  ShutdownThread: Fix Device rebooting when power off confirm button pr…
+ ▪ dc6f770 Fix intermittent slowness in resolver activity towards end of day.
+ ▪ d3c38cd Add Compass tile
+
+ ▪ project packages/apps/Settings/
+ ▪ 5ac46d5 Move some power menu options around.
+ ▪ f207023 Typo
+
+ ▪ project packages/services/OmniJaws/
+ ▪ 745daf2 Omnijaws: Disable statusbar weather when disabling weather service
+ ▪ e354bd9 Build as privileged and "fix" applying icon packs
+
+ ▪ project vendor/lge/
+ ▪ e34b2ca vk810: kang drm from bullhead
+ ▪ 12b48a6 v4xx: update drm libs
+ ▪ d2f2f83 d850: remove prebuilt ril
+
+ ▼ 03/14/2017
+
+
+ ▪ project frameworks/base/
+ ▪ d3cdbd2 REmove duplicate
+ ▪ 2b1534f Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ f6338a2 ShutdownThread: Fix Device rebooting when power off confirm button pressed
+ ▪ 598252b Statusbar weather: fix text hidden settings
+
+ ▪ project packages/apps/OmniSwtich/
+ ▪ 46fbb27 OmniSwitch: delay task info loading to speedup open
+
+ ▪ project packages/apps/Settings/
+ ▪ 48f96bf HTC 10: Add tabp0le maintainer (#717)
+ ▪ 938a069 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ f763a03 Add crackling maintainer (#716)
+
+ ▪ project vendor/cm/
+ ▪ 0d73494 Magisk: Update to HEAD as of Mar 12 02:27:58 PM MST
+
+ ▪ project vendor/lge/
+ ▪ 0176a62 g3-common: add aptx support
+
+ ▼ 03/13/2017
+
+
+ ▪ project frameworks/base/
+ ▪ aa3e13e Statusbar Weather : Refactor [1/2]
+ ▪ f3cd587 FWB: Statusbar weather Update[1/2]
+
+ ▪ project hardware/cyanogen/
+ ▪ 6e2dfc6 livedisplay: SDM: Fix display mode handling
+
+ ▪ project hardware/qcom/media-caf/msm8974/
+ ▪ 4ff5e65 mm-video-v4l2: vdec: Fix makefile derp introduced in d443c0d
+
+ ▪ project packages/apps/Settings/
+ ▪ 0a46070 Lockscreen Shortcuts: Fix System Icon Selector
+ ▪ a7db6dc Statusbar Weather: Refactor [2/2]
+ ▪ 0da1aa8 StatusBar Weather :update [2/2]
+
+ ▪ project vendor/lge/
+ ▪ 81fb6a2 g2-common: aptx support
+
+ ▼ 03/12/2017
+
+
+ ▪ project device/huawei/angler/
+ ▪ 97e4750 Revert "Disable modem ramdumps"
+
+ ▪ project frameworks/base/
+ ▪ b40ad17 Revert "Wifi: Introduce a config parameter for IpReachabilityMonitor"
+ ▪ 8a7d1ea Revert "Add RR logo to empty recents view"
+ ▪ c5c5893 Merge pull request #185 from Chippa-a/nougat
+ ▪ 54318d4 PlatLogo: Show RR platlogo only when tapping on RR-OS version
+ ▪ 16b232a Merge pull request #184 from rrpullrequests/nougat
+ ▪ b83f2a7 ThemeSafety: Introduce App Crash Intent
+ ▪ e739b96 Add RR logo to empty recents view
+ ▪ 275d7af Just don't need these in both places.
+ ▪ 2ee627e  Empty shade view: Add carrier and wifi network name (1/2):
+ ▪ 8a71c12 Fix merge derp
+ ▪ 80ee85d Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project packages/apps/Settings/
+ ▪ 8f9e50a Fix Force Close in Upper Lockscreen Shorcuts fragment
+ ▪ a9abe01 Merge pull request #715 from rrpullrequests/nougat
+ ▪ 6ba60ae Remove duplicate java files
+ ▪ e73bec6 Empty shade view: Add carrier and wifi network name (2/2)
+ ▪ 527b20e Merge remote-tracking branch 'rr/nougat' into n7.1
+
