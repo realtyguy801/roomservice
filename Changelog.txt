@@ -2,115 +2,369 @@
  ▼ Resurrection Remix Nougat Ver 5.8.2 Changelog
 
 
- ▼ 03/16/2017
+ ▼ 03/26/2017
 
 
- ▪ project frameworks/base/
- ▪ e618306 Merge remote-tracking branch 'rr/nougat' into n7.1
- ▪ ca2a687 Automatic translation import
- ▪ e3b0d96 Automatic translation import
- ▪ cb85791 Automatic translation import
- ▪ c1abc56 Fix intermittent slowness in resolver activity towards end of day.
- ▪ 560217c Clean Up Statusbar Weather Attirbutes.
+ ▪ project bionic/
+ ▪ 6f130ca linker: Restore optional platform text relocations use
 
- ▪ project packages/apps/Settings/
- ▪ a29b7a7 Merge remote-tracking branch 'rr/nougat' into n7.1
- ▪ 1753536 Fix Fling Settings Seekbar attrs
- ▪ 87b263d Automatic translation import
- ▪ a27dd98 Added Nougat Maintainer For Redmi Note 4(mido)
- ▪ 542c03e Fix possible NPE on SIM settings shutdown.
- ▪ 0464d0b Clean up SIM enable toggle implementation
- ▪ 242dcad Settings: port manual provisiong support
- ▪ e13c91c Update rr_strings.xml (#718)
+ ▪ project hardware/qcom/audio-caf/msm8952/
+ ▪ baabf8a audio: Fix msm8952-snd-card-mtp support
 
- ▼ 03/15/2017
+ ▪ project hardware/qcom/audio-caf/msm8994/
+ ▪ 8174213 audio: Fix flac offload not working
+ ▪ d758485 policy_hal: Line up default features with rest of HAL
 
+ ▪ project kernel/huawei/angler/
+ ▪ 222ce28 Update
+ ▪ 26c7a09 panic on kmem_cache_free with the wrong cache
+ ▪ 49a73f2 arm64: zero the leading stack canary byte
+ ▪ bfc613d gather extra early boot entropy like PaX
+ ▪ b35b9b5 add slub sanitization
+ ▪ dc362af add slub free list XOR encryption
+ ▪ 619fa07 add missing slab.h corruption check from PaX
+ ▪ 058db23 add page sanitization / verification
+ ▪ 6cfa4ff disable slub merging by default
+ ▪ 7dd7dd3 port of grsecurity's DEVICE_SIDECHANNEL feature
+ ▪ b346d7f minimal port of grsecurity's DENYUSB feature
+ ▪ 78e2e2e add MAC randomization
+ ▪ d195eb5 fs/file.c: don't acquire files->file_lock in fd_install()
+ ▪ 851a125  defconfig: Enable MMC deferred resume
+ ▪ 04a305f mmc: sdhci-msm: Complete porting the patch
+ ▪ 647f9a8 mmc: sdhci-msm: Disable controller clocks in suspend
+ ▪ c469dc0 mmc: core: Fix deadlock in suspend & rescan path
+ ▪ 8018a58 Enable KCAL Control
+ ▪ ca937d9 angler: Enable F2FS
+ ▪ cd47f48 arm64/crypto: Optimize for big.LITTLE (A57 + A53)
+ ▪ 16a32df kgsl: Higher priority of RT thread
+ ▪ 9b6180c arm64: strcmp: align to 64B cache line
+ ▪ 00cea4f msm: mdss: turn on the mdss clocks when enabling vsync
+ ▪ 49e083d power: make sync on suspend optional
+ ▪ 46e67da Disable optimizing for size
+ ▪ 616b50c msm: mdss: use usleep to have precise timing
+ ▪ eeab6ce sched: fair: Drop read_mostly attribute from sched up/downmigrate
+ ▪ a53f577 msm: mdss: change retire fence signaling
+ ▪ b50562b sdcardfs: override umask on mkdir and create
+ ▪ f3f847f sdcardfs: replace LOOKUP_CASE_INSENSITIVE
+ ▪ 094d97f sdcardfs: reserve 20MB by default
+ ▪ f6717f8 fs: import sdcardfs 3.2.0 from G935FXXU1DPLT
+ ▪ 11a0215 Revert "Initial port of sdcardfs"
+ ▪ a456c19 mm: vmscan: lower swappiness to 20
+ ▪ c611898 mdss: Do not wait for kickoff in display commit
+ ▪ 57bf83c sched: turn off the TTWU_QUEUE feature
+ ▪ b33fa85 defconfig: enable jump label for perf defconfig
+ ▪ 5ee2a1c arm64: topology: fix cpu power calculation
+ ▪ eab0b73 defconfig: enable ARM64 CRC32 hw accelerated module
+ ▪ 349f46f arm64: lib: use pair accessors for copy_*_user routines
 
- ▪ project frameworks/base/
- ▪ 906acbc  ShutdownThread: Fix Device rebooting when power off confirm button pr…
- ▪ dc6f770 Fix intermittent slowness in resolver activity towards end of day.
- ▪ d3c38cd Add Compass tile
-
- ▪ project packages/apps/Settings/
- ▪ 5ac46d5 Move some power menu options around.
- ▪ f207023 Typo
-
- ▪ project packages/services/OmniJaws/
- ▪ 745daf2 Omnijaws: Disable statusbar weather when disabling weather service
- ▪ e354bd9 Build as privileged and "fix" applying icon packs
-
- ▪ project vendor/lge/
- ▪ e34b2ca vk810: kang drm from bullhead
- ▪ 12b48a6 v4xx: update drm libs
- ▪ d2f2f83 d850: remove prebuilt ril
-
- ▼ 03/14/2017
-
-
- ▪ project frameworks/base/
- ▪ d3cdbd2 REmove duplicate
- ▪ 2b1534f Merge remote-tracking branch 'rr/nougat' into n7.1
- ▪ f6338a2 ShutdownThread: Fix Device rebooting when power off confirm button pressed
- ▪ 598252b Statusbar weather: fix text hidden settings
+ ▪ project packages/apps/CustomTiles/
+ ▪ 50fb770 Merge remote-tracking branch 'lin/cm-14.1' into n7.1
 
  ▪ project packages/apps/OmniSwtich/
- ▪ 46fbb27 OmniSwitch: delay task info loading to speedup open
+ ▪ 18dc2fb OmniSwitch: add missing docked task indicator for other views
 
  ▪ project packages/apps/Settings/
- ▪ 48f96bf HTC 10: Add tabp0le maintainer (#717)
- ▪ 938a069 Merge remote-tracking branch 'rr/nougat' into n7.1
- ▪ f763a03 Add crackling maintainer (#716)
+ ▪ 7c3006e Remove double strings
+ ▪ be37743 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ db1f9f0 Add Nougat Maintainer for LeEco Le 1s (X3) (#727)
 
- ▪ project vendor/cm/
- ▪ 0d73494 Magisk: Update to HEAD as of Mar 12 02:27:58 PM MST
+ ▪ project vendor/huawei/
+ ▪ 267728e Still need this I guess
+ ▪ 18a8569 Remove widevine from vendor repo
 
  ▪ project vendor/lge/
- ▪ 0176a62 g3-common: add aptx support
+ ▪ f05e96a g5: Correct qdcm calibration file name
+ ▪ 34a3e01 msm8996: Update pn548 firmware to 10.1.1E
 
- ▼ 03/13/2017
+ ▼ 03/25/2017
 
 
  ▪ project frameworks/base/
- ▪ aa3e13e Statusbar Weather : Refactor [1/2]
- ▪ f3cd587 FWB: Statusbar weather Update[1/2]
+ ▪ 39a1b8a Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ da1e367 Slim Recents: fix SystemUI fc
+ ▪ e1f20bb Fix build
+ ▪ adecb77 Merge remote-tracking branch 'rr/nougat' into n7.1
 
- ▪ project hardware/cyanogen/
- ▪ 6e2dfc6 livedisplay: SDM: Fix display mode handling
-
- ▪ project hardware/qcom/media-caf/msm8974/
- ▪ 4ff5e65 mm-video-v4l2: vdec: Fix makefile derp introduced in d443c0d
+ ▪ project packages/apps/OmniClock/
+ ▪ 3327c28 OmniClock: card games - unify style
 
  ▪ project packages/apps/Settings/
- ▪ 0a46070 Lockscreen Shortcuts: Fix System Icon Selector
- ▪ a7db6dc Statusbar Weather: Refactor [2/2]
- ▪ 0da1aa8 StatusBar Weather :update [2/2]
+ ▪ b7874b1 Settings: Set correct default value to In-call DND switch (#725)
+ ▪ 964a86d Add Natrium maintainer (#723)
+ ▪ 727b7c8 Add Samsung Galaxy S7 maintainer (#724)
+ ▪ 5edc1d0 Option to Disable Blank network signal icons on Msim [2/2]
+ ▪ f9cddb9 Merge remote-tracking branch 'rr/nougat' into n7.1
 
- ▪ project vendor/lge/
- ▪ 81fb6a2 g2-common: aptx support
-
- ▼ 03/12/2017
+ ▼ 03/24/2017
 
 
  ▪ project device/huawei/angler/
- ▪ 97e4750 Revert "Disable modem ramdumps"
+ ▪ 80ce7ca Building with Pure Nexus vendor gapps repo
 
  ▪ project frameworks/base/
- ▪ b40ad17 Revert "Wifi: Introduce a config parameter for IpReachabilityMonitor"
- ▪ 8a7d1ea Revert "Add RR logo to empty recents view"
- ▪ c5c5893 Merge pull request #185 from Chippa-a/nougat
- ▪ 54318d4 PlatLogo: Show RR platlogo only when tapping on RR-OS version
- ▪ 16b232a Merge pull request #184 from rrpullrequests/nougat
- ▪ b83f2a7 ThemeSafety: Introduce App Crash Intent
- ▪ e739b96 Add RR logo to empty recents view
- ▪ 275d7af Just don't need these in both places.
- ▪ 2ee627e  Empty shade view: Add carrier and wifi network name (1/2):
- ▪ 8a71c12 Fix merge derp
- ▪ 80ee85d Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ fb47dc9 Option to Disable Blank network signal icons on Msim [1/2]
+ ▪ 42f6626 SystemUI: Hide unprovisioned SIMs * There's no point of displaying null signal icon. clean up PSB while we're at it Signed-off-by: Varun Date <date.varun123@gmail.com>
+ ▪ 1533473 Slim Recents: more fixes, cleanup and improvements
+ ▪ 5e02a9a Merge pull request #187 from ashoksoni/changes
+ ▪ 8b6ff71 Fix crash issue on Storage Manager app
+ ▪ 7bfdfda Fix for wakelock being held during bootup and idle scenario.
+ ▪ 4df2b2b SystemUI: Tiny expanding improvement Signed-off-by: BigBrother1984 <carlosavignano@aospa.co> Signed-off-by: xyyx <xyyx@mail.ru>
+ ▪ 4e0ee9f [BUG] fix NullPointerException in Notification.java
+ ▪ f93f271 Revert "Force Pixel exclusive services"
+ ▪ 738bd6e Slim Recents Membar Colors [1/2]
+ ▪ 5d257d2 Base: API to restart SystemUI without root
+ ▪ d9ea16f Weather tile longclick: alternative weather apps when google weather not installed
+ ▪ 5369e64 Slim Recents: fix multiwindow glitch when docking app to bottom
+ ▪ 9b7f8a4 Slim Recent new multiwindow when multiwindow already active: make it more robust
+ ▪ 728368c Cleanups after Slim recents Refactor
+ ▪ 0dec18d Allow themers to customize battery frame color on darkintensity
+ ▪ 9cb2b58 Slim Recents icon cache: clear it when changing scale factor
+ ▪ 9f09e14 Location tile: new icons
+ ▪ 838a66f Slim Recents: add icon cache to improve performances
+ ▪ 4cf1b49 Slim Recents icon pack: fallback to app icon if pack doesn't have any
+ ▪ 3cec48b Clean up a couple Uris in PSB
+ ▪ aac9a56 Slim recents: don't show content when screen is pinned
+ ▪ 9a7e481 Slim recents: fix sometimes icons being invisible when they should not
+ ▪ e4b1813 Slim Recents: fix multiwindow glitch when docking app to bottom
+ ▪ e9026c1 Slim Recents: fix toptask header layout and other ui improvements
+ ▪ 37c03e3 Slim recents: no need to vibrate twice on longclick
+ ▪ 55213dd Slim recents: Fix blinking cards on notifyDataSetChanged()
+ ▪ 02119f4 Slim recents style improvements
+ ▪ c4c2f58 Slim Recent: allow to dock new apps if a multiwindow session is already running
+ ▪ 54e0b02 Refactor SlimRecents (1/2)
+
+ ▪ project hardware/qcom/fm/
+ ▪ aff061a FM: Fix KHz->kHz
+
+ ▪ project packages/apps/Contacts/
+ ▪ 9f95977 contacts: Add support for import contacts to local phone storage
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ 4186b81 AccountType: use a pretty phone account icon for local storage account
+ ▪ b548bb3 SelectAccountActivity : Support local phone account
+ ▪ fb982d3 Add local phone account as a writable AccountTypes.
+ ▪ d0354bd Store all local contacts in only one account.
+ ▪ 27c6e29 contacts-common: Add support for import contacts to local phone storage
+
+ ▪ project packages/apps/CustomTiles/
+ ▪ 440b231 CustomTiles: rename app_name to "Extra tiles"
+
+ ▪ project packages/apps/Messaging/
+ ▪ 07187cb Rename line in mk file to be properly over ridden by Gapps
 
  ▪ project packages/apps/Settings/
- ▪ 8f9e50a Fix Force Close in Upper Lockscreen Shorcuts fragment
- ▪ a9abe01 Merge pull request #715 from rrpullrequests/nougat
- ▪ 6ba60ae Remove duplicate java files
- ▪ e73bec6 Empty shade view: Add carrier and wifi network name (2/2)
- ▪ 527b20e Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 38b2ee9 Add Natrium maintainer (#723)
+ ▪ 0ca66a7 Option to Disable Blank network signal icons on Msim [2/2]
+ ▪ f0dd739 Slim Recents Membar Color [2/2]
+ ▪ bf21305 Refactor Slim Recents [2/2]
+
+ ▪ project vendor/cm/
+ ▪ b6ce146 Build with Pure nexus gapps
+ ▪ 081774a Repalce boot anim with that from the Pixel
+
+ ▼ 03/23/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 00d1fcc Slim Recents iconpack support [1/2]
+ ▪ 42d1838 Ability to disable Do not Disturb mode when calling [1/3]
+ ▪ 8336296 Suspend Actions [1/3]
+ ▪ 0c5dbdc Make roaming indicator optional [1/2]
+
+ ▪ project packages/apps/Recorder/
+ ▪ ed7a8b3 Recorder: add and fix missing copyrights
+ ▪ 779c197 Recorder: screen recorder overlay
+ ▪ 4bf3b75 Recorder: update gradle and support libraries
+
+ ▪ project packages/apps/Settings/
+ ▪ 0a64428 Update SlimRecentPanel.java
+ ▪ cce096d Slim Recents iconpack support [2/2]
+ ▪ ed6ad03 Fix Build due to bad Pull request
+ ▪ 5076e30 Ability to disable Do not Disturb mode when calling [3/3]
+ ▪ 75b6380 Suspend Actions [3/3]
+ ▪ 0269bd3 Make roaming indicator optional [2/2]
+ ▪ cb63132 add mising strings
+ ▪ 68d825d Add Nougat Maintainer of Nubia Z11(nx531j) (#722)
+
+ ▼ 03/22/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 0628201 Automatic translation import
+ ▪ 52ce3a3 Automatic translation import
+
+ ▪ project packages/apps/CustomTiles/
+ ▪ 7e4ebb2 Automatic translation import
+
+ ▪ project packages/apps/Gallery2/
+ ▪ e0fbb40 Gallery2: renice the album layout
+
+ ▪ project packages/apps/OmniClock/
+ ▪ 4b854e3 OmniClock: card colors follow reference
+
+ ▪ project packages/apps/Recorder/
+ ▪ 14c2858 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ ff7b05f Automatic translation import
+ ▪ 28b1322 Batterybar Settings: Fix Color Previews
+ ▪ bb12331 Merge remote-tracking branch 'rr/nougat' into HEAD
+ ▪ 94bca5b Revert "Enable cool color temperature option"
+
+ ▪ project packages/apps/Snap/
+ ▪ 3deda7f Automatic translation import
+
+ ▪ project packages/apps/TvSettings/
+ ▪ 72df1ce Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ a9fa3b2 Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ 8bbb278 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ d4703e3 Automatic translation import
+
+ ▼ 03/21/2017
+
+
+ ▪ project frameworks/base/
+ ▪ cd64936 Remove tiles that are in CustomTiles
+ ▪ 514f313 Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 5c2e440 Update VoLTE icon
+ ▪ d2d57c0 Add Compass tile
+ ▪ b54a260 Statusbar ticker: apply statusbar tint when set to white
+ ▪ 24dbac1 Location tile: add high accuracy state icon
+ ▪ e4d25c2 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 41b8ae7 Location tile: dynamic icon state also when easy toggle enabled
+ ▪ 806928c Expose Screenshot flash and background colors
+ ▪ 2641bdd Expose temperature text in DetailedWeatherView
+
+ ▪ project packages/apps/CustomTiles/
+ ▪ 42d99e3 Change the heads up and ambient icons to what was in our base
+ ▪ 4f757e8 Automatic translation import
+
+ ▪ project packages/apps/OmniStyle/
+ ▪ b81f8f0  Headers:City style
+
+ ▪ project packages/apps/Settings/
+ ▪ c4a0609 Add Nougat Maintainer of Lenovo P2(p2a42) (#720)
+ ▪ 58bfed9 Automatic translation import
+ ▪ 48b216b Merge remote-tracking branch 'rr/nougat' into n7.1
+ ▪ 84b4eb1 AppOpsDetails: Check app permissions safely
+
+ ▪ project vendor/cm/
+ ▪ 73961ef Build CustomTiles
+ ▪ 1f9045c Update Magisk zip to v11.6
+
+ ▼ 03/20/2017
+
+
+ ▪ project frameworks/base/
+ ▪ 91e16a5 Remove FastJNI optimization on AssetManager to avoid dead lock.
+ ▪ bc9255c Hold "volume up" during boot to disable all overlays
+ ▪ 9fcdd44 Skip v1 signature verification for overlays
+ ▪ ff174d8 Revert "Bring back quick install with N adaptations"
+ ▪ daea297 Merge remote-tracking branch 'rr/nougat' into n7.1
+
+ ▪ project hardware/qcom/fm/
+ ▪ 953af70 Automatic translation import
+
+ ▪ project packages/apps/AudioFX/
+ ▪ dc65a0c Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 888a04e Automatic translation import
+
+ ▪ project packages/apps/Camera2/
+ ▪ 8ee8d23 Automatic translation import
+
+ ▪ project packages/apps/CustomTiles/
+ ▪ c934927 CustomTiles: Add heads up long press action
+ ▪ 60897d0 CustomTiles: Add USB tethering long press action
+
+ ▪ project packages/apps/Eleven/
+ ▪ d46453b Automatic translation import
+
+ ▪ project packages/apps/Email/
+ ▪ af2af0b Automatic translation import
+
+ ▪ project packages/apps/FMRadio/
+ ▪ 588a2ab Automatic translation import
+
+ ▪ project packages/apps/Gello/
+ ▪ 18953eb Automatic translation import
+
+ ▪ project packages/apps/HTMLViewer/
+ ▪ eb1c5fa Automatic translation import
+
+ ▪ project packages/apps/Nfc/
+ ▪ 8bb1879 Automatic translation import
+
+ ▪ project packages/apps/OmniSwtich/
+ ▪ a946bc8 OmniSwitch: on the fly update on dpi changes
+
+ ▪ project packages/apps/Recorder/
+ ▪ 110c07c Automatic translation import
+
+ ▪ project packages/apps/SafetyRegulatoryInfo/
+ ▪ d458cf1 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 08a87a9 Add reversed battery bar back to rr_arrays
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ f834d21 Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 9ee33a5 Automatic translation import
+
+ ▪ project packages/apps/Stk/
+ ▪ 3c27506 Automatic translation import
+
+ ▪ project packages/apps/Terminal/
+ ▪ 5937cbf Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ 993da14 Automatic translation import
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ a536931 Automatic translation import
+
+ ▪ project packages/apps/TvSettings/
+ ▪ f58e1b2 Automatic translation import
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ c2e4f01 Automatic translation import
+
+ ▪ project packages/apps/WallpaperPicker/
+ ▪ cfbd067 Automatic translation import
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ f59371a Automatic translation import
+
+ ▪ project packages/providers/BookmarkProvider/
+ ▪ 1b2cc77 Automatic translation import
+
+ ▪ project packages/providers/CalendarProvider/
+ ▪ a1aa622 Automatic translation import
+
+ ▪ project packages/providers/ContactsProvider/
+ ▪ e93ac19 Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ ae34e55 Automatic translation import
+
+ ▪ project packages/resources/devicesettings/
+ ▪ b75c745 Automatic translation import
+
+ ▪ project vendor/cm/
+ ▪ fca0a8c Update Magisk to 11.5 (#86)
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ a940996 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ 459f3db Automatic translation import
 
